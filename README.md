@@ -1,3 +1,10 @@
+#Resposta do Desafio:
+
+ const handleRemoveRepo = (id) => {
+    setRepos(prevRepos => prevRepos.filter(repo => repo.id !== id));
+  }
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
